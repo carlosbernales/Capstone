@@ -1,0 +1,241 @@
+CRITICAL - 2023-10-14 00:00:18 --> Undefined variable $email
+in APPPATH/Views/home/otp_verification.php on line 139.
+ 1 APPPATH/Views/home/otp_verification.php(139): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/home/otp_verification.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Account.php(532): view()
+ 6 APPPATH/Controllers/Account.php(504): App\Controllers\Account->sendOtpEmail()
+ 7 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Account->saveUser()
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-14 00:01:01 --> Undefined variable $email
+in APPPATH/Views/home/otp_verification.php on line 139.
+ 1 APPPATH/Views/home/otp_verification.php(139): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/home/otp_verification.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Account.php(532): view()
+ 6 APPPATH/Controllers/Account.php(504): App\Controllers\Account->sendOtpEmail()
+ 7 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Account->saveUser()
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-14 00:06:40 --> Object of class CodeIgniter\Email\Email could not be converted to string
+in APPPATH/Views/home/otp_verification.php on line 139.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Account.php(533): view()
+ 5 APPPATH/Controllers/Account.php(505): App\Controllers\Account->sendOtpEmail()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Account->saveUser()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-14 00:07:44 --> Undefined variable $change_email
+in APPPATH/Views/home/otp_verification.php on line 139.
+ 1 APPPATH/Views/home/otp_verification.php(139): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/home/otp_verification.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Account.php(533): view()
+ 6 APPPATH/Controllers/Account.php(505): App\Controllers\Account->sendOtpEmail()
+ 7 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Account->saveUser()
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-14 00:22:30 --> Object of class CodeIgniter\Email\Email could not be converted to string
+in APPPATH/Views/home/otp_verification.php on line 139.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Account.php(533): view()
+ 5 APPPATH/Controllers/Account.php(505): App\Controllers\Account->sendOtpEmail()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Account->saveUser()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-14 00:27:59 --> Undefined variable $email
+in APPPATH/Views/home/otp_verification.php on line 139.
+ 1 APPPATH/Views/home/otp_verification.php(139): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/home/otp_verification.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Account.php(533): view()
+ 6 APPPATH/Controllers/Account.php(505): App\Controllers\Account->sendOtpEmail()
+ 7 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Account->saveUser()
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-14 00:28:42 --> Object of class CodeIgniter\Email\Email could not be converted to string
+in APPPATH/Views/home/otp_verification.php on line 139.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Account.php(533): view()
+ 5 APPPATH/Controllers/Account.php(505): App\Controllers\Account->sendOtpEmail()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Account->saveUser()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-14 00:54:19 --> CodeIgniter\HTTP\RedirectResponse::with(): Argument #1 ($key) must be of type string, array given, called in /home/u696532059/domains/bituinflowershop.com/public_html/app/Controllers/Account.php on line 581
+in SYSTEMPATH/HTTP/RedirectResponse.php on line 134.
+ 1 APPPATH/Controllers/Account.php(581): CodeIgniter\HTTP\RedirectResponse->with()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Account->verifyOtp()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-14 00:55:50 --> Undefined variable $otp
+in APPPATH/Controllers/Account.php on line 556.
+ 1 APPPATH/Controllers/Account.php(556): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Account->verifyOtp()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-14 00:57:17 --> Undefined variable $otp
+in APPPATH/Controllers/Account.php on line 556.
+ 1 APPPATH/Controllers/Account.php(556): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Account->verifyOtp()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-14 00:58:32 --> Too few arguments to function CodeIgniter\HTTP\RedirectResponse::to(), 0 passed in /home/u696532059/domains/bituinflowershop.com/public_html/app/Controllers/Account.php on line 573 and at least 1 expected
+in SYSTEMPATH/HTTP/RedirectResponse.php on line 32.
+ 1 APPPATH/Controllers/Account.php(573): CodeIgniter\HTTP\RedirectResponse->to()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Account->verifyOtp()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-14 01:01:16 --> Undefined variable $id
+in APPPATH/Views/home/otp_verification.php on line 138.
+ 1 APPPATH/Views/home/otp_verification.php(138): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/home/otp_verification.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Account.php(511): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Account->saveUser()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-14 01:03:08 --> Undefined variable $id
+in APPPATH/Views/home/otp_verification.php on line 138.
+ 1 APPPATH/Views/home/otp_verification.php(138): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/home/otp_verification.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Account.php(511): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Account->saveUser()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-14 01:25:00 --> Undefined variable $change_email
+in APPPATH/Controllers/Account.php on line 573.
+ 1 APPPATH/Controllers/Account.php(573): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Account->verifyOtp()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-14 01:25:16 --> Undefined variable $change_email
+in APPPATH/Controllers/Account.php on line 573.
+ 1 APPPATH/Controllers/Account.php(573): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Account->verifyOtp()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-14 01:25:25 --> Undefined variable $emailData
+in APPPATH/Controllers/Account.php on line 573.
+ 1 APPPATH/Controllers/Account.php(573): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Account->verifyOtp()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-14 01:25:32 --> Too few arguments to function App\Controllers\Account::sendOtpEmail(), 1 passed in /home/u696532059/domains/bituinflowershop.com/public_html/app/Controllers/Account.php on line 573 and exactly 3 expected
+in APPPATH/Controllers/Account.php on line 518.
+ 1 APPPATH/Controllers/Account.php(573): App\Controllers\Account->sendOtpEmail()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Account->verifyOtp()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-14 06:10:10 --> strpos(): Argument #1 ($haystack) must be of type string, CodeIgniter\Email\Email given
+in SYSTEMPATH/Email/Email.php on line 736.
+ 1 SYSTEMPATH/Email/Email.php(736): strpos()
+ 2 SYSTEMPATH/Email/Email.php(549): CodeIgniter\Email\Email->stringToArray()
+ 3 APPPATH/Controllers/Account.php(515): CodeIgniter\Email\Email->setTo()
+ 4 APPPATH/Controllers/Account.php(494): App\Controllers\Account->sendOtpEmail()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Account->saveUser()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-14 06:13:01 --> strpos(): Argument #1 ($haystack) must be of type string, CodeIgniter\Email\Email given
+in SYSTEMPATH/Email/Email.php on line 736.
+ 1 SYSTEMPATH/Email/Email.php(736): strpos()
+ 2 SYSTEMPATH/Email/Email.php(549): CodeIgniter\Email\Email->stringToArray()
+ 3 APPPATH/Controllers/Account.php(515): CodeIgniter\Email\Email->setTo()
+ 4 APPPATH/Controllers/Account.php(494): App\Controllers\Account->sendOtpEmail()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Account->saveUser()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-14 06:13:20 --> strpos(): Argument #1 ($haystack) must be of type string, CodeIgniter\Email\Email given
+in SYSTEMPATH/Email/Email.php on line 736.
+ 1 SYSTEMPATH/Email/Email.php(736): strpos()
+ 2 SYSTEMPATH/Email/Email.php(549): CodeIgniter\Email\Email->stringToArray()
+ 3 APPPATH/Controllers/Account.php(515): CodeIgniter\Email\Email->setTo()
+ 4 APPPATH/Controllers/Account.php(494): App\Controllers\Account->sendOtpEmail()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Account->saveUser()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-14 06:14:27 --> Object of class CodeIgniter\Email\Email could not be converted to string
+in SYSTEMPATH/Database/Query.php on line 335.
+ 1 SYSTEMPATH/Database/Query.php(335): strtr()
+ 2 SYSTEMPATH/Database/Query.php(310): CodeIgniter\Database\Query->matchNamedBinds()
+ 3 SYSTEMPATH/Database/Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 6 SYSTEMPATH/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH/BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 8 APPPATH/Controllers/Account.php(436): CodeIgniter\BaseModel->first()
+ 9 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Account->saveUser()
+10 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-14 06:14:57 --> syntax error, unexpected token "<", expecting variable or "{" or "$"
+in APPPATH/Controllers/Account.php on line 436.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(877): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-14 06:20:03 --> syntax error, unexpected token "endif", expecting end of file
+in APPPATH/Views/home/otp_verification.php on line 135.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Account.php(521): view()
+ 4 APPPATH/Controllers/Account.php(494): App\Controllers\Account->sendOtpEmail()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Account->saveUser()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-14 06:53:01 --> Undefined variable $firstname
+in APPPATH/Views/admin/emails/my_account_otp.php on line 47.
+ 1 APPPATH/Views/admin/emails/my_account_otp.php(47): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/emails/my_account_otp.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Account.php(520): view()
+ 6 APPPATH/Controllers/Account.php(494): App\Controllers\Account->sendOtpEmail()
+ 7 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Account->saveUser()
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-14 07:19:52 --> Undefined variable $emailBody
+in APPPATH/Controllers/Account.php on line 354.
+ 1 APPPATH/Controllers/Account.php(354): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Account->sendResetLink()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

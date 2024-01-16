@@ -1,0 +1,11 @@
+CRITICAL - 2023-10-04 00:19:16 --> Trying to access array offset on value of type null
+in APPPATH/Views/home/productdetails.php on line 401.
+ 1 APPPATH/Views/home/productdetails.php(401): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/home/productdetails.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(241): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->productdetails()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,122 @@
+CRITICAL - 2023-10-11 02:19:06 --> Undefined variable $data
+in APPPATH/Controllers/Account.php on line 548.
+ 1 APPPATH/Controllers/Account.php(548): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Account->verifyOtp()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 02:19:36 --> Too few arguments to function App\Controllers\Account::verifyOtp(), 0 passed in /home/u696532059/domains/bituinflowershop.com/public_html/system/CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH/Controllers/Account.php on line 501.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Account->verifyOtp()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 03:03:02 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH/Views/home/otp_verification.php on line 155.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Account.php(488): view()
+ 5 APPPATH/Controllers/Account.php(471): App\Controllers\Account->sendOtpEmail()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Account->saveUser()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 03:05:27 --> Class "App\Controllers\Product_model" not found
+in APPPATH/Controllers/Account.php on line 431.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Account->saveUser()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 03:05:45 --> Class "App\Controllers\Category_model" not found
+in APPPATH/Controllers/Account.php on line 432.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Account->saveUser()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 03:06:15 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH/Views/home/otp_verification.php on line 155.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Account.php(525): view()
+ 5 APPPATH/Controllers/Account.php(508): App\Controllers\Account->sendOtpEmail()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Account->saveUser()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 03:11:28 --> Class "App\Controllers\Product_model" not found
+in APPPATH/Controllers/Account.php on line 431.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Account->saveUser()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 03:12:14 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH/Views/home/otp_verification.php on line 155.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Account.php(525): view()
+ 5 APPPATH/Controllers/Account.php(508): App\Controllers\Account->sendOtpEmail()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Account->saveUser()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 03:13:36 --> Undefined variable $category
+in APPPATH/Views/home/otp_verification.php on line 150.
+ 1 APPPATH/Views/home/otp_verification.php(150): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/home/otp_verification.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Account.php(525): view()
+ 6 APPPATH/Controllers/Account.php(508): App\Controllers\Account->sendOtpEmail()
+ 7 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Account->saveUser()
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 03:13:53 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH/Views/home/otp_verification.php on line 155.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Account.php(525): view()
+ 5 APPPATH/Controllers/Account.php(508): App\Controllers\Account->sendOtpEmail()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Account->saveUser()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 03:15:04 --> count(): Argument #1 ($value) must be of type Countable|array, string given
+in APPPATH/Views/home/otp_verification.php on line 155.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Account.php(525): view()
+ 5 APPPATH/Controllers/Account.php(508): App\Controllers\Account->sendOtpEmail()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Account->saveUser()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 20:09:53 --> Undefined variable $id
+in APPPATH/Views/home/otp_verification.php on line 138.
+ 1 APPPATH/Views/home/otp_verification.php(138): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/home/otp_verification.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Account.php(496): view()
+ 6 APPPATH/Controllers/Account.php(471): App\Controllers\Account->sendOtpEmail()
+ 7 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Account->saveUser()
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 20:10:38 --> Undefined variable $id
+in APPPATH/Views/home/otp_verification.php on line 138.
+ 1 APPPATH/Views/home/otp_verification.php(138): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/home/otp_verification.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Account.php(496): view()
+ 6 APPPATH/Controllers/Account.php(471): App\Controllers\Account->sendOtpEmail()
+ 7 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Account->saveUser()
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

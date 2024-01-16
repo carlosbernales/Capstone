@@ -1,0 +1,22 @@
+CRITICAL - 2023-11-26 18:48:34 --> Array to string conversion
+in APPPATH/Views/admin/dashboard.php on line 332.
+ 1 APPPATH/Views/admin/dashboard.php(332): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/dashboard.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Admin.php(520): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin->dashboard()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-26 19:20:09 --> Undefined array key "created_at"
+in APPPATH/Views/admin/reviews/reviewslist.php on line 295.
+ 1 APPPATH/Views/admin/reviews/reviewslist.php(295): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/reviews/reviewslist.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Admin.php(885): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin->reviews()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

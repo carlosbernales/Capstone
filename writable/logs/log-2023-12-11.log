@@ -1,0 +1,165 @@
+CRITICAL - 2023-12-11 02:33:36 --> Undefined variable $shippingFee
+in APPPATH/Views/home/checkout.php on line 488.
+ 1 APPPATH/Views/home/checkout.php(488): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/home/checkout.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(958): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->checkout()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 02:34:37 --> Unclosed '{' on line 479
+in APPPATH/Views/home/checkout.php on line 1041.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Home.php(958): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->checkout()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 02:37:22 --> syntax error, unexpected double-quoted string " required>", expecting "," or ";"
+in APPPATH/Views/home/checkout.php on line 491.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Home.php(958): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->checkout()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 02:41:59 --> Undefined variable $shipinfo
+in APPPATH/Views/home/checkout.php on line 493.
+ 1 APPPATH/Views/home/checkout.php(493): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/home/checkout.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(958): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->checkout()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 04:16:57 --> syntax error, unexpected string content "category_nam", expecting "]"
+in APPPATH/Views/home/customize.php on line 655.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Customize.php(151): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Customize->customize()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 04:38:40 --> Unclosed '{' on line 298
+in APPPATH/Views/home/customize.php on line 300.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Customize.php(151): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Customize->customize()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 21:16:56 --> Undefined array key "products"
+in APPPATH/Controllers/Customize.php on line 301.
+ 1 APPPATH/Controllers/Customize.php(301): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Customize->insertOrderItems()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 21:16:58 --> Undefined array key "products"
+in APPPATH/Controllers/Customize.php on line 301.
+ 1 APPPATH/Controllers/Customize.php(301): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Customize->insertOrderItems()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 21:24:56 --> file_get_contents(/home/u696532059/domains/bituinflowershop.com/public_html/public/public/products/23.jpg): Failed to open stream: No such file or directory
+in APPPATH/Controllers/Customize.php on line 325.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Customize.php(325): file_get_contents()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Customize->insertOrderItems()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 21:25:34 --> file_get_contents(/home/u696532059/domains/bituinflowershop.com/public_html/public/public/products/23.jpg): Failed to open stream: No such file or directory
+in APPPATH/Controllers/Customize.php on line 326.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Customize.php(326): file_get_contents()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Customize->insertOrderItems()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 21:30:14 --> Undefined property: App\Controllers\Customize::$load
+in APPPATH/Controllers/Customize.php on line 329.
+ 1 APPPATH/Controllers/Customize.php(329): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Customize->insertOrderItems()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 21:31:11 --> Undefined property: App\Controllers\Customize::$load
+in APPPATH/Controllers/Customize.php on line 329.
+ 1 APPPATH/Controllers/Customize.php(329): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Customize->insertOrderItems()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 21:32:47 --> Undefined property: App\Controllers\Customize::$load
+in APPPATH/Controllers/Customize.php on line 330.
+ 1 APPPATH/Controllers/Customize.php(330): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Customize->insertOrderItems()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 21:33:41 --> Call to a member function initialize() on null
+in APPPATH/Controllers/Customize.php on line 332.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Customize->insertOrderItems()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 21:34:34 --> Call to a member function initialize() on null
+in APPPATH/Controllers/Customize.php on line 332.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Customize->insertOrderItems()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 21:35:05 --> Undefined property: App\Controllers\Customize::$upload
+in APPPATH/Controllers/Customize.php on line 332.
+ 1 APPPATH/Controllers/Customize.php(332): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Customize->insertOrderItems()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 21:35:48 --> Call to a member function do_upload() on null
+in APPPATH/Controllers/Customize.php on line 332.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Customize->insertOrderItems()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 21:36:35 --> Call to a member function initialize() on null
+in APPPATH/Controllers/Customize.php on line 332.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Customize->insertOrderItems()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 21:37:12 --> Call to a member function moveUploadedFile() on null
+in APPPATH/Controllers/Customize.php on line 334.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Customize->insertOrderItems()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 21:38:37 --> Call to undefined method App\Controllers\Customize::moveUploadedFile()
+in APPPATH/Controllers/Customize.php on line 327.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Customize->insertOrderItems()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 21:39:14 --> Call to undefined method App\Controllers\Customize::moveUploadedFile()
+in APPPATH/Controllers/Customize.php on line 327.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Customize->insertOrderItems()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 21:40:11 --> Undefined array key "item_image"
+in APPPATH/Controllers/Customize.php on line 327.
+ 1 APPPATH/Controllers/Customize.php(327): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Customize->insertOrderItems()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

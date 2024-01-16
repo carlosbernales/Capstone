@@ -1,0 +1,336 @@
+CRITICAL - 2023-12-09 00:06:51 --> syntax error, unexpected token "endforeach"
+in APPPATH/Views/home/orders.php on line 741.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Home.php(632): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->orders()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 00:08:17 --> Undefined array key "flower_sizeOrtype"
+in APPPATH/Views/home/orders.php on line 694.
+ 1 APPPATH/Views/home/orders.php(694): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/home/orders.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(632): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->orders()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-09 00:30:52 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-12-09 00:30:52 --> 220 smtp.googlemail.com ESMTP gb21-20020a17090b061500b002804af3afb7sm4383931pjb.49 - gsmtp
+
+hello: 250-smtp.googlemail.com at your service, [2a02:4780:3:1140:0:2984:3c5b:2]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK gb21-20020a17090b061500b002804af3afb7sm4383931pjb.49 - gsmtp
+
+to: 555-5.5.2 Syntax error, cannot decode response. For more information, go to
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications. gb21-20020a17090b061500b002804af3afb7sm4383931pjb.49 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error, cannot decode response. For more information, go to
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications. gb21-20020a17090b061500b002804af3afb7sm4383931pjb.49 - gsmtp
+
+quit: 221 2.0.0 closing connection gb21-20020a17090b061500b002804af3afb7sm4383931pjb.49 - gsmtp
+
+CRITICAL - 2023-12-09 00:37:47 --> Undefined array key "flower_sizeOrtype"
+in APPPATH/Views/admin/orders/pending_orders.php on line 465.
+ 1 APPPATH/Views/admin/orders/pending_orders.php(465): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/orders/pending_orders.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Orders.php(463): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Orders->pending_orders()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 00:39:09 --> Undefined variable $flower_sizeOrtype
+in APPPATH/Controllers/Customize.php on line 406.
+ 1 APPPATH/Controllers/Customize.php(406): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Customize->add_price()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-09 00:39:50 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-12-09 00:39:50 --> 220 smtp.googlemail.com ESMTP jj17-20020a170903049100b001d2f0985020sm2089477plb.294 - gsmtp
+
+hello: 250-smtp.googlemail.com at your service, [2a02:4780:3:1140:0:2984:3c5b:2]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK jj17-20020a170903049100b001d2f0985020sm2089477plb.294 - gsmtp
+
+to: 555-5.5.2 Syntax error, cannot decode response. For more information, go to
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications. jj17-20020a170903049100b001d2f0985020sm2089477plb.294 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error, cannot decode response. For more information, go to
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications. jj17-20020a170903049100b001d2f0985020sm2089477plb.294 - gsmtp
+
+quit: 221 2.0.0 closing connection jj17-20020a170903049100b001d2f0985020sm2089477plb.294 - gsmtp
+
+ERROR - 2023-12-09 00:42:26 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-12-09 00:42:26 --> 220 smtp.googlemail.com ESMTP 12-20020a17090a01cc00b002850eb8b6dcsm3170515pjd.44 - gsmtp
+
+hello: 250-smtp.googlemail.com at your service, [2a02:4780:3:1140:0:2984:3c5b:2]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK 12-20020a17090a01cc00b002850eb8b6dcsm3170515pjd.44 - gsmtp
+
+to: 555-5.5.2 Syntax error, cannot decode response. For more information, go to
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications. 12-20020a17090a01cc00b002850eb8b6dcsm3170515pjd.44 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error, cannot decode response. For more information, go to
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications. 12-20020a17090a01cc00b002850eb8b6dcsm3170515pjd.44 - gsmtp
+
+quit: 221 2.0.0 closing connection 12-20020a17090a01cc00b002850eb8b6dcsm3170515pjd.44 - gsmtp
+
+ERROR - 2023-12-09 00:48:43 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-12-09 00:48:43 --> 220 smtp.googlemail.com ESMTP fy14-20020a17090b020e00b002866e580912sm4500912pjb.20 - gsmtp
+
+hello: 250-smtp.googlemail.com at your service, [2a02:4780:3:1140:0:2984:3c5b:2]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK fy14-20020a17090b020e00b002866e580912sm4500912pjb.20 - gsmtp
+
+to: 555-5.5.2 Syntax error, cannot decode response. For more information, go to
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications. fy14-20020a17090b020e00b002866e580912sm4500912pjb.20 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error, cannot decode response. For more information, go to
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications. fy14-20020a17090b020e00b002866e580912sm4500912pjb.20 - gsmtp
+
+quit: 221 2.0.0 closing connection fy14-20020a17090b020e00b002866e580912sm4500912pjb.20 - gsmtp
+
+ERROR - 2023-12-09 00:50:31 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-12-09 00:50:31 --> 220 smtp.googlemail.com ESMTP w14-20020a1709027b8e00b001cfc4d8ede5sm2756168pll.301 - gsmtp
+
+hello: 250-smtp.googlemail.com at your service, [2a02:4780:3:1140:0:2984:3c5b:2]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK w14-20020a1709027b8e00b001cfc4d8ede5sm2756168pll.301 - gsmtp
+
+to: 555-5.5.2 Syntax error, cannot decode response. For more information, go to
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications. w14-20020a1709027b8e00b001cfc4d8ede5sm2756168pll.301 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error, cannot decode response. For more information, go to
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications. w14-20020a1709027b8e00b001cfc4d8ede5sm2756168pll.301 - gsmtp
+
+quit: 221 2.0.0 closing connection w14-20020a1709027b8e00b001cfc4d8ede5sm2756168pll.301 - gsmtp
+
+ERROR - 2023-12-09 00:55:34 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-12-09 00:55:34 --> 220 smtp.googlemail.com ESMTP a18-20020a170902ecd200b001cfc1b931a9sm2759875plh.249 - gsmtp
+
+hello: 250-smtp.googlemail.com at your service, [2a02:4780:3:1140:0:2984:3c5b:2]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK a18-20020a170902ecd200b001cfc1b931a9sm2759875plh.249 - gsmtp
+
+to: 555-5.5.2 Syntax error, cannot decode response. For more information, go to
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications. a18-20020a170902ecd200b001cfc1b931a9sm2759875plh.249 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error, cannot decode response. For more information, go to
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications. a18-20020a170902ecd200b001cfc1b931a9sm2759875plh.249 - gsmtp
+
+quit: 221 2.0.0 closing connection a18-20020a170902ecd200b001cfc1b931a9sm2759875plh.249 - gsmtp
+
+ERROR - 2023-12-09 00:58:36 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-12-09 00:58:36 --> 220 smtp.googlemail.com ESMTP a19-20020a17090abe1300b00287731b0ceasm4450313pjs.13 - gsmtp
+
+hello: 250-smtp.googlemail.com at your service, [2a02:4780:3:1140:0:2984:3c5b:2]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK a19-20020a17090abe1300b00287731b0ceasm4450313pjs.13 - gsmtp
+
+to: 555-5.5.2 Syntax error, cannot decode response. For more information, go to
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications. a19-20020a17090abe1300b00287731b0ceasm4450313pjs.13 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error, cannot decode response. For more information, go to
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications. a19-20020a17090abe1300b00287731b0ceasm4450313pjs.13 - gsmtp
+
+quit: 221 2.0.0 closing connection a19-20020a17090abe1300b00287731b0ceasm4450313pjs.13 - gsmtp
+
+ERROR - 2023-12-09 01:02:16 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-12-09 01:02:16 --> 220 smtp.googlemail.com ESMTP az4-20020a170902a58400b001b7f40a8959sm2761086plb.76 - gsmtp
+
+hello: 250-smtp.googlemail.com at your service, [2a02:4780:3:1140:0:2984:3c5b:2]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK az4-20020a170902a58400b001b7f40a8959sm2761086plb.76 - gsmtp
+
+to: 555-5.5.2 Syntax error, cannot decode response. For more information, go to
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications. az4-20020a170902a58400b001b7f40a8959sm2761086plb.76 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error, cannot decode response. For more information, go to
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications. az4-20020a170902a58400b001b7f40a8959sm2761086plb.76 - gsmtp
+
+quit: 221 2.0.0 closing connection az4-20020a170902a58400b001b7f40a8959sm2761086plb.76 - gsmtp
+
+CRITICAL - 2023-12-09 07:10:01 --> Undefined array key "details"
+in APPPATH/Views/admin/orders/pending_orders.php on line 349.
+ 1 APPPATH/Views/admin/orders/pending_orders.php(349): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/orders/pending_orders.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Orders.php(463): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Orders->pending_orders()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 07:25:31 --> Undefined variable $item_amounts
+in APPPATH/Views/admin/emails/topay_cod.php on line 71.
+ 1 APPPATH/Views/admin/emails/topay_cod.php(71): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/emails/topay_cod.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Customize.php(468): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Customize->add_price()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 07:26:46 --> Unclosed '{' on line 70
+in APPPATH/Views/admin/emails/topay_cod.php on line 152.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Customize.php(468): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Customize->add_price()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 07:27:24 --> Undefined variable $shipping_fee
+in APPPATH/Views/admin/emails/topay_cod.php on line 72.
+ 1 APPPATH/Views/admin/emails/topay_cod.php(72): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/emails/topay_cod.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Customize.php(468): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Customize->add_price()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 07:29:47 --> Unclosed '{' on line 70
+in APPPATH/Views/admin/emails/topay_cod.php on line 123.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Customize.php(468): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Customize->add_price()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 07:41:00 --> Undefined variable $item_amounts
+in APPPATH/Views/admin/emails/topay_pickup.php on line 73.
+ 1 APPPATH/Views/admin/emails/topay_pickup.php(73): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/emails/topay_pickup.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Customize.php(469): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Customize->add_price()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 08:08:51 --> Undefined array key "item_color"
+in APPPATH/Views/admin/orders/pending_orders.php on line 316.
+ 1 APPPATH/Views/admin/orders/pending_orders.php(316): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/orders/pending_orders.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Orders.php(463): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Orders->pending_orders()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 08:13:38 --> Undefined array key "flower_sizeOrtype"
+in APPPATH/Views/admin/orders/pending_orders.php on line 317.
+ 1 APPPATH/Views/admin/orders/pending_orders.php(317): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/orders/pending_orders.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Orders.php(466): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Orders->pending_orders()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 08:19:37 --> Undefined variable $item_colors
+in APPPATH/Views/admin/emails/topay_cod.php on line 92.
+ 1 APPPATH/Views/admin/emails/topay_cod.php(92): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/emails/topay_cod.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Orders.php(93): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Orders->ordersupdate()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 08:21:26 --> Undefined variable $item_colors
+in APPPATH/Views/admin/emails/topay_cod.php on line 92.
+ 1 APPPATH/Views/admin/emails/topay_cod.php(92): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/emails/topay_cod.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Orders.php(93): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Orders->ordersupdate()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

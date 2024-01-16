@@ -1,0 +1,76 @@
+CRITICAL - 2023-12-13 20:38:29 --> Invalid file: admin/address/barangaylist.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Address.php(54): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Address->brgy_list()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-13 20:52:42 --> syntax error, unexpected token "public"
+in APPPATH/Views/admin/address/citylist.php on line 141.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Address.php(92): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Address->city_list()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-13 22:00:24 --> file_put_contents(public/public/products/1699176881_d9ce1ccf1c28f032d8c9.jpg): Failed to open stream: No such file or directory
+in APPPATH/Controllers/Customize.php on line 334.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Customize.php(334): file_put_contents()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Customize->insertOrderItems()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-13 22:00:30 --> file_put_contents(public/public/products/1699176881_d9ce1ccf1c28f032d8c9.jpg): Failed to open stream: No such file or directory
+in APPPATH/Controllers/Customize.php on line 334.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Customize.php(334): file_put_contents()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Customize->insertOrderItems()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-13 22:00:49 --> file_put_contents(public/public/products/1699176881_d9ce1ccf1c28f032d8c9.jpg): Failed to open stream: No such file or directory
+in APPPATH/Controllers/Customize.php on line 334.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Customize.php(334): file_put_contents()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Customize->insertOrderItems()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-13 22:01:00 --> file_put_contents(public/public/products/1699176881_d9ce1ccf1c28f032d8c9.jpg): Failed to open stream: No such file or directory
+in APPPATH/Controllers/Customize.php on line 334.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Customize.php(334): file_put_contents()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Customize->insertOrderItems()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-13 22:01:06 --> file_put_contents(public/public/products/1699176881_d9ce1ccf1c28f032d8c9.jpg): Failed to open stream: No such file or directory
+in APPPATH/Controllers/Customize.php on line 334.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Customize.php(334): file_put_contents()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Customize->insertOrderItems()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-13 22:02:03 --> file_put_contents(public/public/products/1699176881_d9ce1ccf1c28f032d8c9.jpg): Failed to open stream: No such file or directory
+in APPPATH/Controllers/Customize.php on line 334.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Customize.php(334): file_put_contents()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Customize->insertOrderItems()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-13 22:24:27 --> Unsupported operand types: array * string
+in APPPATH/Views/admin/emails/settle_custom.php on line 76.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Customize.php(513): view()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Customize->add_price()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

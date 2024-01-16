@@ -1,0 +1,389 @@
+CRITICAL - 2023-12-08 19:21:54 --> syntax error, unexpected token ":"
+in APPPATH/Views/home/orders.php on line 553.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Home.php(632): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->orders()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-08 20:00:20 --> Undefined variable $orderItem
+in APPPATH/Views/admin/orders/pending_orders.php on line 368.
+ 1 APPPATH/Views/admin/orders/pending_orders.php(368): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/orders/pending_orders.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Orders.php(463): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Orders->pending_orders()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-08 20:06:57 --> Unclosed '{' on line 336
+in APPPATH/Views/admin/orders/pending_orders.php on line 642.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Orders.php(463): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Orders->pending_orders()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-08 20:07:32 --> Unclosed '{' on line 336
+in APPPATH/Views/admin/orders/pending_orders.php on line 646.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Orders.php(463): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Orders->pending_orders()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-08 20:08:23 --> syntax error, unexpected token "endforeach"
+in APPPATH/Views/admin/orders/pending_orders.php on line 397.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Orders.php(463): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Orders->pending_orders()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-08 20:08:24 --> syntax error, unexpected token "endforeach"
+in APPPATH/Views/admin/orders/pending_orders.php on line 397.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Orders.php(463): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Orders->pending_orders()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-08 20:15:21 --> syntax error, unexpected token "endforeach"
+in APPPATH/Views/admin/orders/pending_orders.php on line 402.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Orders.php(463): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Orders->pending_orders()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-08 20:33:07 --> Undefined array key "item_amount"
+in APPPATH/Views/admin/orders/pending_orders.php on line 412.
+ 1 APPPATH/Views/admin/orders/pending_orders.php(412): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/orders/pending_orders.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Orders.php(463): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Orders->pending_orders()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-08 21:02:34 --> syntax error, unexpected token "}", expecting "elseif" or "else" or "endif"
+in APPPATH/Views/admin/orders/pending_orders.php on line 399.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Orders.php(463): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Orders->pending_orders()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-08 21:03:16 --> syntax error, unexpected token "}", expecting "elseif" or "else" or "endif"
+in APPPATH/Views/admin/orders/pending_orders.php on line 399.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Orders.php(463): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Orders->pending_orders()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-08 21:04:04 --> syntax error, unexpected token "endforeach", expecting "elseif" or "else" or "endif"
+in APPPATH/Views/admin/orders/pending_orders.php on line 421.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Orders.php(463): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Orders->pending_orders()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-08 21:04:39 --> syntax error, unexpected token "}", expecting "elseif" or "else" or "endif"
+in APPPATH/Views/admin/orders/pending_orders.php on line 405.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Orders.php(463): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Orders->pending_orders()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-08 21:04:41 --> syntax error, unexpected token "}", expecting "elseif" or "else" or "endif"
+in APPPATH/Views/admin/orders/pending_orders.php on line 405.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Orders.php(463): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Orders->pending_orders()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-08 21:05:20 --> syntax error, unexpected token "}", expecting "elseif" or "else" or "endif"
+in APPPATH/Views/admin/orders/pending_orders.php on line 384.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Orders.php(463): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Orders->pending_orders()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-08 21:08:42 --> syntax error, unexpected token "endif"
+in APPPATH/Views/admin/orders/pending_orders.php on line 384.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Orders.php(463): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Orders->pending_orders()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-08 21:09:07 --> syntax error, unexpected token "endif"
+in APPPATH/Views/admin/orders/pending_orders.php on line 384.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Orders.php(463): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Orders->pending_orders()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-08 21:15:07 --> syntax error, unexpected token "}", expecting "elseif" or "else" or "endif"
+in APPPATH/Views/admin/orders/pending_orders.php on line 370.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Orders.php(463): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Orders->pending_orders()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-08 21:18:05 --> Undefined array key "order_item"
+in APPPATH/Views/admin/orders/pending_orders.php on line 288.
+ 1 APPPATH/Views/admin/orders/pending_orders.php(288): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/orders/pending_orders.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Orders.php(463): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Orders->pending_orders()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-08 21:19:39 --> Undefined array key "order_item"
+in APPPATH/Views/admin/orders/pending_orders.php on line 295.
+ 1 APPPATH/Views/admin/orders/pending_orders.php(295): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/orders/pending_orders.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Orders.php(463): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Orders->pending_orders()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-08 21:24:26 --> syntax error, unexpected token "}", expecting "elseif" or "else" or "endif"
+in APPPATH/Views/admin/orders/pending_orders.php on line 400.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Orders.php(463): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Orders->pending_orders()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-08 21:26:04 --> syntax error, unexpected token "endforeach", expecting "elseif" or "else" or "endif"
+in APPPATH/Views/admin/orders/pending_orders.php on line 418.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Orders.php(463): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Orders->pending_orders()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-08 21:27:06 --> syntax error, unexpected token "endforeach", expecting "elseif" or "else" or "endif"
+in APPPATH/Views/admin/orders/pending_orders.php on line 420.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Orders.php(463): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Orders->pending_orders()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-08 21:36:42 --> syntax error, unexpected token "}", expecting "elseif" or "else" or "endif"
+in APPPATH/Views/admin/orders/pending_orders.php on line 398.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Orders.php(463): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Orders->pending_orders()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-08 21:41:17 --> syntax error, unexpected token "}", expecting "elseif" or "else" or "endif"
+in APPPATH/Views/admin/orders/pending_orders.php on line 397.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Orders.php(463): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Orders->pending_orders()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-08 21:41:32 --> syntax error, unexpected token "}", expecting "elseif" or "else" or "endif"
+in APPPATH/Views/admin/orders/pending_orders.php on line 398.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Orders.php(463): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Orders->pending_orders()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-08 21:41:42 --> syntax error, unexpected token "endforeach", expecting "elseif" or "else" or "endif"
+in APPPATH/Views/admin/orders/pending_orders.php on line 421.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Orders.php(463): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Orders->pending_orders()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-08 21:41:59 --> syntax error, unexpected token "endif"
+in APPPATH/Views/admin/orders/pending_orders.php on line 375.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Orders.php(463): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Orders->pending_orders()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-08 21:47:51 --> Undefined array key "DragNdrop"
+in APPPATH/Views/admin/orders/pending_orders.php on line 379.
+ 1 APPPATH/Views/admin/orders/pending_orders.php(379): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/orders/pending_orders.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Orders.php(463): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Orders->pending_orders()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-08 22:36:26 --> Undefined array key "flower_sizeOrtype"
+in APPPATH/Views/admin/orders/pending_orders.php on line 412.
+ 1 APPPATH/Views/admin/orders/pending_orders.php(412): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/orders/pending_orders.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Orders.php(463): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Orders->pending_orders()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-08 22:40:34 --> Undefined array key "flower_sizeOrtype"
+in APPPATH/Views/admin/orders/pending_orders.php on line 424.
+ 1 APPPATH/Views/admin/orders/pending_orders.php(424): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/orders/pending_orders.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Orders.php(463): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Orders->pending_orders()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-08 23:02:32 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-12-08 23:02:32 --> 220 smtp.googlemail.com ESMTP c22-20020a63da16000000b005c67a388836sm2407273pgh.62 - gsmtp
+
+hello: 250-smtp.googlemail.com at your service, [2a02:4780:3:1140:0:2984:3c5b:2]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK c22-20020a63da16000000b005c67a388836sm2407273pgh.62 - gsmtp
+
+to: 555-5.5.2 Syntax error, cannot decode response. For more information, go to
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications. c22-20020a63da16000000b005c67a388836sm2407273pgh.62 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error, cannot decode response. For more information, go to
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications. c22-20020a63da16000000b005c67a388836sm2407273pgh.62 - gsmtp
+
+quit: 221 2.0.0 closing connection c22-20020a63da16000000b005c67a388836sm2407273pgh.62 - gsmtp
+
+CRITICAL - 2023-12-08 23:26:40 --> syntax error, unexpected token "!=="
+in APPPATH/Views/admin/orders/pending_orders.php on line 412.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Orders.php(463): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Orders->pending_orders()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-08 23:29:46 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-12-08 23:29:46 --> 220 smtp.googlemail.com ESMTP k189-20020a6324c6000000b005bcea1bf43bsm2421590pgk.12 - gsmtp
+
+hello: 250-smtp.googlemail.com at your service, [2a02:4780:3:1140:0:2984:3c5b:2]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK k189-20020a6324c6000000b005bcea1bf43bsm2421590pgk.12 - gsmtp
+
+to: 555-5.5.2 Syntax error, cannot decode response. For more information, go to
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications. k189-20020a6324c6000000b005bcea1bf43bsm2421590pgk.12 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error, cannot decode response. For more information, go to
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications. k189-20020a6324c6000000b005bcea1bf43bsm2421590pgk.12 - gsmtp
+
+quit: 221 2.0.0 closing connection k189-20020a6324c6000000b005bcea1bf43bsm2421590pgk.12 - gsmtp
+
+ERROR - 2023-12-08 23:32:28 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-12-08 23:32:28 --> 220 smtp.googlemail.com ESMTP x4-20020a170902ec8400b001d04d730687sm2599322plg.103 - gsmtp
+
+hello: 250-smtp.googlemail.com at your service, [2a02:4780:3:1140:0:2984:3c5b:2]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK x4-20020a170902ec8400b001d04d730687sm2599322plg.103 - gsmtp
+
+to: 555-5.5.2 Syntax error, cannot decode response. For more information, go to
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications. x4-20020a170902ec8400b001d04d730687sm2599322plg.103 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error, cannot decode response. For more information, go to
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications. x4-20020a170902ec8400b001d04d730687sm2599322plg.103 - gsmtp
+
+quit: 221 2.0.0 closing connection x4-20020a170902ec8400b001d04d730687sm2599322plg.103 - gsmtp
+
+ERROR - 2023-12-08 23:53:11 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-12-08 23:53:11 --> 220 smtp.googlemail.com ESMTP h2-20020a170902f54200b001cfc67d46efsm2619671plf.191 - gsmtp
+
+hello: 250-smtp.googlemail.com at your service, [2a02:4780:3:1140:0:2984:3c5b:2]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK h2-20020a170902f54200b001cfc67d46efsm2619671plf.191 - gsmtp
+
+to: 555-5.5.2 Syntax error, cannot decode response. For more information, go to
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications. h2-20020a170902f54200b001cfc67d46efsm2619671plf.191 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error, cannot decode response. For more information, go to
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications. h2-20020a170902f54200b001cfc67d46efsm2619671plf.191 - gsmtp
+
+quit: 221 2.0.0 closing connection h2-20020a170902f54200b001cfc67d46efsm2619671plf.191 - gsmtp
+
